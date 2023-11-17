@@ -1,0 +1,100 @@
+/* removing the defaults styles */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 20px;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+/* ther styles */
+.main_content
+{
+    width: 80%;
+    min-height: 80vh;
+    box-shadow: 0 0 10px #0005;
+    position: relative;
+    top: 3rem;
+    margin: auto;
+}
+.main_content_uppersection
+{
+    position: relative;
+}
+.left_section,.right_section
+{
+    position: absolute;
+}
+.left_section
+{
+    left: 10rem;
+    top: 5rem;
+}
+.right_section
+{
+    right: 6rem;
+    top: 5rem;
+}
+
+.into_paragraph
+{
+    padding: 10px;
+    width: 45%;
+}
+
+/* rating card  */
+.review_card *
+{
+    padding: 0;
+    margin: 0;
+}
+.review_card
+{
+    /* background-color: red; */
+     /* background-color: red; */
+    /* background-color:  hsl(303, 10%, 53%); */
+   /* background-color: hsl(300, 43%, 22%) ; */
+    /* background-color:  hsl(333, 80%, 67%); */
+    background-color:  hsl(300, 24%, 96%);
+    /* background-color:  hsl(0, 0%, 100%); */
+    /* hsl(303, 10%, 53%) */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+.review_card img
+{
+    width: 12px;
+}
+.image_wrapper
+{
+   
+    display: inline;
+}
+.rating_test
+{
+    display: inline-block;
+    margin-left: 20px;
+    /* font-weight: 400, 500, 700; */
+    /* font-weight: 400,; */
+    font-weight:500;
+    font-weight: 700;
+    padding-right: 30px;
+    
+}
+
+.card2
+{
+    position: relative;
+    left: 2rem;
+}
+.card3
+{
+    position: relative;
+    left: 3rem;
+    /* background-color: aqua; */
+}
